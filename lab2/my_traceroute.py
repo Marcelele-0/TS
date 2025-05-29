@@ -23,4 +23,4 @@ def traceroute_scapy(target, max_hops=30, timeout=2):
                 break
 
 if __name__ == "__main__":
-    traceroute_scapy("google.com")  # Example target")
+    traceroute_scapy("8.8.8.8")  # Example target")
