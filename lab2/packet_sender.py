@@ -1,6 +1,6 @@
 from scapy.all import sr1
 
-def send_packet(packet, timeout=2):
+def send_packet(packet, timeout=10):
     """
     Sends a packet and waits for a response.
 

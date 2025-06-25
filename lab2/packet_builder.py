@@ -1,6 +1,6 @@
 from scapy.all import IP, ICMP
 
-def build_packet(dst_ip="8.8.8.8", payload="HELLO"):
+def build_packet(dst_ip="google.com", payload="HELLO"):
     """
     Builds an ICMP packet with a custom payload.
 
